@@ -35,7 +35,7 @@ Apply Git, Pull Request, testing, and CI/CD practices to network automation.<br>
 - Area 0 R1, R2, R3 and R4 OSPF backbone.<br>
 - Area 20	R3 and R7 Remote OSPF area.<br>
 - Area 30	R1 and R5 Remote OSPF area.<br>
-- Area 40	R2 and R6 Remote OSPF area<.<br>
+- Area 40	R2 and R6 Remote OSPF area.<br>
 
 > **Note:** The complete network diagram will be added to the docs/ directory.
 
