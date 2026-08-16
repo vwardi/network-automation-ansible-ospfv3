@@ -1,0 +1,19 @@
+---
+
+# This playbook it's just to validate the Ansbile enviroment at the first deployment.
+
+- name: Verify connectivity with Cisco IOS routers.
+  hosts: cisco_ios
+  gather_facts: false
+  
+  tasks:
+    - name: Execute show clock
+      cisco.ios.ios_command:
+        commands:
+          - show clock
+      register: clock_output
+
+    - name: Display show clock outuput
+      ansible.builtin.debug:
+        var: clock_output.stdout_lines
+...
