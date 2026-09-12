@@ -1,6 +1,6 @@
 ---
 
-# This playbook it's just to validate the Ansbile enviroment at the first deployment.
+# This playbook it's just to validate the Ansible enviroment at the first deployment.
 
 - name: Verify connectivity with Cisco IOS routers.
   hosts: cisco_ios
